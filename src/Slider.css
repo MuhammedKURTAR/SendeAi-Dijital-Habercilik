@@ -1,0 +1,32 @@
+/* Slider.css */
+.slider {
+    height: 400px; /* Resim boyutları 3 kat büyütüldü */
+    overflow: hidden;
+    position: relative;
+}
+
+.slide-track {
+    display: flex;
+    width: calc(250px * 8);
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(calc(-250px * 4)); }
+}
+
+.slide {
+    height: 400px; /* Resim boyutları 3 kat büyütüldü */
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 200px; /* Resimler arasındaki boşluğu daha da azaltıldı */
+}
+
+.slide img {
+    height: 320px; /* Resim boyutları 3 kat büyütüldü */
+    width: auto;
+    object-fit: contain;
+}

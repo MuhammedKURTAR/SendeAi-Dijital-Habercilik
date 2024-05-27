@@ -1,0 +1,45 @@
+/* Home.css */
+.home-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .home-title {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .border-primary {
+    border-color: #007bff !important;
+  }
+  
+  .text-primary {
+    color: #007bff !important;
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+  }
+  

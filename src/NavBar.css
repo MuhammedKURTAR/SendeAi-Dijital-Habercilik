@@ -1,0 +1,62 @@
+/* Genel Stil */
+.navbar {
+  background-color: #ff3333; /* Kırmızı renk tonu */
+  padding: 10px;
+  border-bottom: 2px solid #e60000; /* Koyu kırmızı alt çizgi */
+}
+
+.navbar-brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ff0000; /* Kırmızı renk */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 8px 12px;
+  transition: color 0.3s, background-color 0.3s;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff3333;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+/* Dropdown Menü Stili */
+.dropdown-menu {
+  background-color: #ff3333;
+  border: 1px solid #e60000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-item {
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-item:hover {
+  background-color: #e60000;
+  color: #fff;
+}
+
+/* Hamburger Menü Stili */
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Mobil Görünüm */
+@media (max-width: 991.98px) {
+  .navbar-nav .nav-link {
+    padding: 6px 8px;
+  }
+}
